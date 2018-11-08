@@ -22,20 +22,3 @@
     height: 100%;
   }
 }
-
-.focusRing {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
-  left: 5px;
-  pointer-events: none;
-  outline-width: 5px;
-  outline-style: none;
-  outline-color: Highlight;
-
-  @media (-webkit-min-device-pixel-ratio:0) {
-    outline-style: none;
-    outline-color: -webkit-focus-ring-color;
-  }
-}
