@@ -77,7 +77,7 @@ const Slide = class Slide extends React.PureComponent {
   }
 
   renderFocusRing() {
-    if (this.state.focused) return <div className={[s.focusRing, 'carousel__slide-focus-ring'].join(' ')} />;
+    //if (this.state.focused) return <div className={[s.focusRing, 'carousel__slide-focus-ring'].join(' ')} />;
     return null;
   }
 
