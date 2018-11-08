@@ -16,7 +16,6 @@ Carousels: Love them or hate them.  However, if you are a React developer, and y
 - Developed from the ground-up in React.
 - Is not a wrapper or port of some non-react carousel like Slick or Flickity.
 - Fully supports touch events.
-- Is aria compliant.
 - Is responsive by default.
 - Lets you assemble the carousel components in the DOM in any order you desire so long as they are all children of a single &lt;CarouselProvider /> component.
 - Lets you put any class names, properties, attributes, or styles on any of the components that you need.
@@ -235,7 +234,7 @@ A Slider is a viewport that masks slides.  The Slider component must wrap one or
 - Pass the CSS class you create to the classNameAnimation property of Slider.
 
 ### &lt;Slide />
-The Slide component is a container with an intrinsic ratio computed by the CarouselProvider naturalSlideWidth and naturalSlideHeight properties.  By default, only one slide is visible in the Slider at a time.  You can change this by altering the visibleSlides property of the CarouselProvider.  Slide components also contain a div that acts as an aria compliant focus ring when the Slide receives focus either by using a keyboard tab, mouse click, or touch.
+The Slide component is a container with an intrinsic ratio computed by the CarouselProvider naturalSlideWidth and naturalSlideHeight properties.  By default, only one slide is visible in the Slider at a time.  You can change this by altering the visibleSlides property of the CarouselProvider.
 
 | property | type | default | required | purpose |
 | -------- | ---- | ------- | -------- | ------- |
